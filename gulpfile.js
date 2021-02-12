@@ -36,10 +36,10 @@
             dest: './dist/html/.'
         },
 
-        sass: {
-            dir: './src/sass/**/**/*.scss',
-            src: './src/sass/style.scss',
-            dest: './dist/css/.'
+        img: {
+            dir: './src/img/**/*.*',
+            src: './src/img/**/*.*',
+            dest: './dist/img/.'
         },
 
         js: {
@@ -48,16 +48,16 @@
             dest: './dist/js/.'
         },
 
+        sass: {
+            dir: './src/sass/**/**/*.scss',
+            src: './src/sass/style.scss',
+            dest: './dist/css/.'
+        },
+
         svg: {
             dir: './src/svg/**/*.svg',
             src: './src/svg/**/*.svg',
             dest: './dist/svg/.'
-        },
-
-        img: {
-            dir: './src/img/**/*.*',
-            src: './src/img/**/*.*',
-            dest: './dist/img/.'
         }
     };
 
