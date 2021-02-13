@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3b8ee4e6282b82f577df04f4b33b2421",
+    "content-hash": "69043de42cb7a994fa0015b28b969c4d",
     "packages": [
         {
             "name": "composer/installers",
@@ -495,6 +495,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/jetpack/"
+        },
+        {
+            "name": "wpackagist-plugin/media-library-plus",
+            "version": "6.1.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/media-library-plus/",
+                "reference": "tags/6.1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/media-library-plus.6.1.0.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/media-library-plus/"
         },
         {
             "name": "wpackagist-plugin/optinmonster",

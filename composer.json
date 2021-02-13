@@ -41,6 +41,7 @@
         "wpackagist-plugin/health-check": "*",
         "wpackagist-plugin/hummingbird-performance": "*",
         "wpackagist-plugin/jetpack": "*",
+        "wpackagist-plugin/media-library-plus": "*",
         "wpackagist-plugin/wp-nested-pages": "*",
         "wpackagist-plugin/optinmonster": "*",
         "wpackagist-plugin/php-everywhere": "*",
