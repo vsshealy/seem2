@@ -7,3 +7,26 @@
      * @copyright 02/21
     **/
 ?>
+
+<!DOCTYPE HTML>
+<!-- SEEM | SOUTHEAST ENERGY EXCHANGE MARKET | INFO@SOUTHEASTENERGYMARKET.COM -->
+
+<html id="seem" <?php language_attributes(); ?>>
+    
+    <!-- HEAD -->
+    <head>
+        <?php include(get_template_directory()."/src/php/scripts/head/front-page.php"); ?>
+    </head>
+
+    <!-- BODY -->
+    <body class="page">
+
+        <!-- HEADER -->
+        <?php include(get_template_directory()."/header.php"); ?>
+
+        <!-- CONTENT | (FRONT)-PAGE.PHP -->
+        <!-- FOOTER -->
+        <!-- SCRIPTS -->
+    </body>
+
+</html>
