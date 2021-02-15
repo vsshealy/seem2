@@ -22,7 +22,7 @@
                     'menu-1' => esc_html__('Header-Primary', 'seem'),
                     'menu-2' => esc_html__('Header-Top', 'seem'),
                     'menu-3' => esc_html__('Header-Mobile', 'seem'),
-                    'menu-4' => esc_html__('Footer-Primary', 'seem')
+                    'menu-4' => esc_html__('Footer-Links', 'seem')
                 )
             );
 
