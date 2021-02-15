@@ -1,0 +1,29 @@
+/**
+    * sass/variables/objects/buttons.scss
+    * @package seem
+    * @author Scott Shealy
+    * @version 1.0.0
+    * @copyright 02/21
+**/
+
+// BUTTONS
+    $button-font: $body-text;
+    $button-font-size: $font-size-base;
+    $button-margin: $margin-sm $margin-xxs;
+    $button-padding: $padding-xxs $padding-sm;
+
+    // BUTTON
+        $button-color: $color-link;
+        $button-color-text: mix($color-light, $color-link, $color-adjustment * 12);
+        $button-color-border: mix($color-dark, $color-link, $color-adjustment * 3);
+        $button-color-hover: mix($color-dark, $color-link, $color-adjustment * 3);
+        $button-color-hover-text: mix($color-light, $color-link, $color-adjustment * 12);
+        $button-color-hover-border: mix($color-dark, $color-link, $color-adjustment * 3);
+
+    // BUTTON-ALT
+        $button-color-alt: mix($color-light, $color-link, $color-adjustment * 12);
+        $button-color-alt-text: mix($color-light, $color-link, $color-adjustment * 0);
+        $button-color-alt-border: mix($color-light, $color-link, $color-adjustment * 0);
+        $button-color-alt-hover: mix($color-light, $color-link, $color-adjustment * 0);
+        $button-color-alt-hover-text: mix($color-light, $color-link, $color-adjustment * 12);
+        $button-color-alt-hover-border: mix($color-light, $color-link, $color-adjustment * 0);

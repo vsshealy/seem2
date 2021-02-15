@@ -1,0 +1,20 @@
+/**
+    * sass/variables/units/margins.scss
+    * @package seem
+    * @author Scott Shealy
+    * @version 1.0.0
+    * @copyright 02/21
+**/
+
+// MARGIN-BASE
+    $margin-base: $base-unit;
+
+// MARGINS
+    $margin-none: $margin-base * 0.00;
+    $margin-xxs: $margin-base * 0.50;
+    $margin-xs: $margin-base * 1.00;
+    $margin-sm: $margin-base * 2.00;
+    $margin-md: $margin-base * 4.00;
+    $margin-lg: $margin-base * 6.00;
+    $margin-xl: $margin-base * 8.00;
+    $margin-xxl: $margin-base * 10.00;

@@ -1,0 +1,15 @@
+/**
+    * sass/external/font-awesome/main.scss
+    * @package seem
+    * @author Scott Shealy
+    * @version 1.0.0
+    * @copyright 02/21
+**/
+
+// VARIABLE SETTINGS
+    $font-icons: normal normal normal $font-size-base FontAwesome;
+    $icon-margin: $margin-none $margin-xxs;
+
+    // @IMPORT | PARTIALS
+        @import "classes";
+        @import "icons";

@@ -1,0 +1,75 @@
+/**
+    * sass/variables/master.scss
+    * @package seem
+    * @author Scott Shealy
+    * @version 1.0.0
+    * @copyright 02/21
+**/
+
+// THEME PATH
+    $theme-path: "/wp-content/themes/seem";
+
+// COLORS
+    $color-light: #ffffff;
+    $color-dark: #000000;
+    $color-adjustment: (100.00% / 12);
+
+        // @IMPORT | PARTIALS
+        @import "colors/black";
+        @import "colors/grayscale";
+        @import "colors/seem";
+
+// UNITS
+    $base-unit: 1.00rem;
+    $site-width-min: 100.00%;
+    $site-width-max: 100.00%;
+    $site-width-content: 960px;
+
+        // @IMPORT | PARTIALS
+        @import "units/grids";
+        @import "units/margins";
+        @import "units/paddings";
+
+// TEXT
+    $font-sans: "Open Sans", Helvetica, Arial, sans-serif;
+    $font-serif: "Roboto Slab", Georgia, serif;
+    $heading-text: $font-serif;
+    $body-text: $font-sans;
+    $font-size-base: 1.00em;
+
+        // @IMPORT | PARTIALS
+        @import "text/font-sizes";
+        @import "text/letter-spacing";
+        @import "text/line-height";
+        @import "text/headings";
+        @import "text/body";
+
+// LISTS
+        // @IMPORT | PARTIALS
+        @import "lists/text";
+        @import "lists/buttons";
+
+// MEDIA
+        // @IMPORT | PARTIALS
+        @import "media/browsers";
+        @import "media/devices";
+        @import "media/displays";
+        @import "media/menus";
+        @import "media/screens";
+
+// MIXINS
+        // @IMPORT | PARTIALS
+
+// IMAGES
+        // @IMPORT | PARTIALS
+        @import "images/logos";
+
+// OBJECTS
+    $color-link: $color-seem-green;
+    $color-link-hover: mix($color-dark, $color-link, $color-adjustment * 4);
+
+        // @IMPORT | PARTIALS
+        @import "objects/borders";
+        @import "objects/buttons";
+        @import "objects/forms";
+        @import "objects/shadows";

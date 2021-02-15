@@ -1,0 +1,13 @@
+/**
+    * sass/variables/lists/buttons.scss
+    * @package seem
+    * @author Scott Shealy
+    * @version 1.0.0
+    * @copyright 02/21
+**/
+
+// BUTTONS
+    $button-solid: ".button-solid";
+    $button-ghost: ".button-ghost";
+    $button-mobile: ".button-mobile";
+    $button-all: "#{$button-solid}, #{$button-ghost}, #{$button-mobile}";

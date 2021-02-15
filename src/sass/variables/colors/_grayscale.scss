@@ -1,0 +1,41 @@
+/**
+    * sass/variables/colors/grayscale.scss
+    * @package seem
+    * @author Scott Shealy
+    * @version 1.0.0
+    * @copyright 02/21
+**/
+
+// VARIABLES
+    $color-grayscale: #808080;
+
+// -LIGHT
+    $color-grayscale-light-12: mix($color-light, $color-grayscale, $color-adjustment * 12);
+    $color-grayscale-light-11: mix($color-light, $color-grayscale, $color-adjustment * 11);
+    $color-grayscale-light-10: mix($color-light, $color-grayscale, $color-adjustment * 10);
+    $color-grayscale-light-9: mix($color-light, $color-grayscale, $color-adjustment * 9);
+    $color-grayscale-light-8: mix($color-light, $color-grayscale, $color-adjustment * 8);
+    $color-grayscale-light-7: mix($color-light, $color-grayscale, $color-adjustment * 7);
+    $color-grayscale-light-6: mix($color-light, $color-grayscale, $color-adjustment * 6);
+    $color-grayscale-light-5: mix($color-light, $color-grayscale, $color-adjustment * 5);
+    $color-grayscale-light-4: mix($color-light, $color-grayscale, $color-adjustment * 4);
+    $color-grayscale-light-3: mix($color-light, $color-grayscale, $color-adjustment * 3);
+    $color-grayscale-light-2: mix($color-light, $color-grayscale, $color-adjustment * 2);
+    $color-grayscale-light-1: mix($color-light, $color-grayscale, $color-adjustment * 1);
+
+// BASE
+    $color-grayscale-0: $color-grayscale;
+
+// -DARK
+    $color-grayscale-dark-1: mix($color-dark, $color-grayscale, $color-adjustment * 1);
+    $color-grayscale-dark-2: mix($color-dark, $color-grayscale, $color-adjustment * 2);
+    $color-grayscale-dark-3: mix($color-dark, $color-grayscale, $color-adjustment * 3);
+    $color-grayscale-dark-4: mix($color-dark, $color-grayscale, $color-adjustment * 4);
+    $color-grayscale-dark-5: mix($color-dark, $color-grayscale, $color-adjustment * 5);
+    $color-grayscale-dark-6: mix($color-dark, $color-grayscale, $color-adjustment * 6);
+    $color-grayscale-dark-7: mix($color-dark, $color-grayscale, $color-adjustment * 7);
+    $color-grayscale-dark-8: mix($color-dark, $color-grayscale, $color-adjustment * 8);
+    $color-grayscale-dark-9: mix($color-dark, $color-grayscale, $color-adjustment * 9);
+    $color-grayscale-dark-10: mix($color-dark, $color-grayscale, $color-adjustment * 10);
+    $color-grayscale-dark-11: mix($color-dark, $color-grayscale, $color-adjustment * 11);
+    $color-grayscale-dark-12: mix($color-dark, $color-grayscale, $color-adjustment * 12);

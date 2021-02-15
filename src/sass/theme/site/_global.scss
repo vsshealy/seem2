@@ -1,0 +1,87 @@
+/**
+    * sass/theme/site/global.scss
+    * @package seem
+    * @author Scott Shealy
+    * @version 1.0.0
+    * @copyright 02/21
+**/
+
+* {
+    // GLOBAL
+        box-sizing: border-box;
+
+    // MOBILE
+        @media #{$screen-xs} {} //COL-XS
+        @media #{$screen-sm} {} //COL-SM
+        @media #{$screen-md} {} //COL-MD
+        @media #{$device-mobile} {} //MOBILE
+
+    // DESKTOP
+        @media #{$screen-lg} {} //COL-LG
+        @media #{$screen-xl} {} //COL-XL
+
+    // BROWSERS
+        @media #{$browser-ie} {} //IE
+} //*
+
+html {
+    // GLOBAL
+        width: 100.00vw;
+
+    // MOBILE
+        @media #{$screen-xs} {} //COL-XS
+        @media #{$screen-sm} {} //COL-SM
+        @media #{$screen-md} {} //COL-MD
+        @media #{$device-mobile} {} //MOBILE
+
+    // DESKTOP
+        @media #{$screen-lg} {} //COL-LG
+        @media #{$screen-xl} {} //COL-XL
+
+    // BROWSERS
+        @media #{$browser-ie} {} //IE
+} //HTML
+
+.body {
+    // GLOBAL
+        width: 100.00%;
+        margin: $margin-none;
+        padding: $padding-none;
+        background-color: $color-grayscale-light-12;
+        font-family: $body-text;
+        font-weight: $body-text-weight;
+        letter-spacing: $letter-spacing-normal;
+        line-height: $line-height-normal;
+        text-align: left;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        color: $body-text-color;
+
+    // MOBILE
+        @media #{$screen-xs} {
+            font-size: $font-size-phone;
+        } //COL-XS
+
+        @media #{$screen-sm} {
+            font-size: $font-size-phone;
+        } //COL-SM
+
+        @media #{$screen-md} {
+            font-size: $font-size-tablet;
+        } //COL-MD
+
+        @media #{$device-mobile} {} //MOBILE
+
+    // DESKTOP
+        @media #{$screen-lg} {
+            font-size: $font-size-desktop;
+        } //COL-LG
+
+        @media #{$screen-xl} {
+            font-size: $font-size-desktop;
+        } //COL-XL
+
+    // BROWSERS
+        @media #{$browser-ie} {} //IE
+} //.BODY

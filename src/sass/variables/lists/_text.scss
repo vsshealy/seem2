@@ -1,0 +1,26 @@
+/**
+    * sass/variables/lists/text.scss
+    * @package seem
+    * @author Scott Shealy
+    * @version 1.0.0
+    * @copyright 02/21
+**/
+
+// HEADINGS
+    $text-headings-h1: "h1, .h1";
+    $text-headings-h2: "h2, .h2";
+    $text-headings-h3: "h3, .h3";
+    $text-headings-h4: "h4, .h4";
+    $text-headings-h5: "h5, .h5";
+    $text-headings-h6: "h6, .h6";
+    $text-headings-all: "#{$text-headings-h1}, #{$text-headings-h2}, #{$text-headings-h3}, #{$text-headings-h4}, #{$text-headings-h5}, #{$text-headings-h6}";
+
+// BODY
+    $text-body-p: "p, .p";
+    $text-body-li: "li, .li";
+    $text-body-span: "span, .span";
+    $text-body-links: "a, .a";
+    $text-body-all: "#{$text-body-p}, #{$text-body-li}, #{$text-body-span}, #{$text-body-links}";
+
+// ALL-TEXT
+    $text-all: "#{$text-headings-all}, #{$text-body-all}";

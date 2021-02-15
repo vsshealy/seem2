@@ -1,0 +1,33 @@
+/**
+    * sass/variables/media/templates.scss
+    * @package seem
+    * @author Scott Shealy
+    * @version 1.0.0
+    * @copyright 02/21
+**/
+
+// MEDIA
+    // GLOBAL
+    // MOBILE
+        @media #{$screen-xs} {} //COL-XS
+        @media #{$screen-sm} {} //COL-SM
+        @media #{$screen-md} {} //COL-MD
+        @media #{$device-mobile} {} //MOBILE
+
+    // DESKTOP
+        @media #{$screen-lg} {} //COL-LG
+        @media #{$screen-xl} {} //COL-XL
+
+    // BROWSERS
+        @media #{$browser-ie} {} //IE
+
+// MENUS
+    // GLOBAL
+    // MOBILE
+        @media #{$menu-mobile} {} //MOBILE
+
+    // DESKTOP
+        @media #{$menu-desktop} {} //DESKTOP
+
+    // BROWSERS
+        @media #{$browser-ie} {} //IE

@@ -1,0 +1,15 @@
+/**
+    * sass/external/bootstrap/main.scss
+    * @package seem
+    * @author Scott Shealy
+    * @version 1.0.0
+    * @copyright 02/21
+**/
+
+// VARIABLE SETTINGS
+    $bootstrap-base: $padding-xs;
+
+    // @IMPORT | PARTIALS
+        @import "lists";
+        @import "general";
+        @import "columns";

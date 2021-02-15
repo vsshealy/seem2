@@ -1,0 +1,172 @@
+/**
+    * sass/plugins/elementor/elements.scss
+    * @package seem
+    * @author Scott Shealy
+    * @version 1.0.0
+    * @copyright 02/21
+**/
+
+// .ELEMENTOR
+.elementor {
+    // GLOBAL
+    // MOBILE
+        @media #{$screen-xs} {} //COL-XS
+        @media #{$screen-sm} {} //COL-SM
+        @media #{$screen-md} {} //COL-MD
+        @media #{$device-mobile} {} //MOBILE
+
+    // DESKTOP
+        @media #{$screen-lg} {} //COL-LG
+        @media #{$screen-xl} {} //COL-XL
+
+    // BROWSERS
+        @media #{$browser-ie} {} //IE
+
+    &-column {
+        // GLOBAL
+        // MOBILE
+            @media #{$screen-xs} {} //COL-XS
+            @media #{$screen-sm} {} //COL-SM
+            @media #{$screen-md} {} //COL-MD
+            @media #{$device-mobile} {} //MOBILE
+
+        // DESKTOP
+            @media #{$screen-lg} {} //COL-LG
+            @media #{$screen-xl} {} //COL-XL
+
+        // BROWSERS
+            @media #{$browser-ie} {} //IE
+
+        &-wrap {
+            // GLOBAL
+            // MOBILE
+                @media #{$screen-xs} {} //COL-XS
+                @media #{$screen-sm} {} //COL-SM
+                @media #{$screen-md} {} //COL-MD
+                @media #{$device-mobile} {} //MOBILE
+
+            // DESKTOP
+                @media #{$screen-lg} {} //COL-LG
+                @media #{$screen-xl} {} //COL-XL
+
+            // BROWSERS
+                @media #{$browser-ie} {} //IE
+        } //.ELEMENTOR-COLUMN-WRAP
+    } //.ELEMENTOR-COLUMN
+
+    &-element {
+        // GLOBAL
+        // MOBILE
+            @media #{$screen-xs} {} //COL-XS
+            @media #{$screen-sm} {} //COL-SM
+            @media #{$screen-md} {} //COL-MD
+            @media #{$device-mobile} {} //MOBILE
+
+        // DESKTOP
+            @media #{$screen-lg} {} //COL-LG
+            @media #{$screen-xl} {} //COL-XL
+
+        // BROWSERS
+            @media #{$browser-ie} {} //IE
+
+        &-populated {
+            // GLOBAL
+                padding: $padding-none !important;
+
+            // MOBILE
+                @media #{$screen-xs} {} //COL-XS
+                @media #{$screen-sm} {} //COL-SM
+                @media #{$screen-md} {} //COL-MD
+                @media #{$device-mobile} {} //MOBILE
+
+            // DESKTOP
+                @media #{$screen-lg} {} //COL-LG
+                @media #{$screen-xl} {} //COL-XL
+
+            // BROWSERS
+                @media #{$browser-ie} {} //IE
+        } //.ELEMENTOR-ELEMENT-POPULATED
+    } //.ELEMENTOR-ELEMENT
+
+    &-widget {
+        // GLOBAL
+        // MOBILE
+            @media #{$screen-xs} {} //COL-XS
+            @media #{$screen-sm} {} //COL-SM
+            @media #{$screen-md} {} //COL-MD
+            @media #{$device-mobile} {} //MOBILE
+
+        // DESKTOP
+            @media #{$screen-lg} {} //COL-LG
+            @media #{$screen-xl} {} //COL-XL
+
+        // BROWSERS
+            @media #{$browser-ie} {} //IE
+
+        &-wp-widget {
+            // GLOBAL
+            // MOBILE
+                @media #{$screen-xs} {} //COL-XS
+                @media #{$screen-sm} {} //COL-SM
+                @media #{$screen-md} {} //COL-MD
+                @media #{$device-mobile} {} //MOBILE
+
+            // DESKTOP
+                @media #{$screen-lg} {} //COL-LG
+                @media #{$screen-xl} {} //COL-XL
+
+            // BROWSERS
+                @media #{$browser-ie} {} //IE
+
+            &-phpeverywherewidget{
+                // GLOBAL
+                // MOBILE
+                    @media #{$screen-xs} {} //COL-XS
+                    @media #{$screen-sm} {} //COL-SM
+                    @media #{$screen-md} {} //COL-MD
+                    @media #{$device-mobile} {} //MOBILE
+
+                // DESKTOP
+                    @media #{$screen-lg} {} //COL-LG
+                    @media #{$screen-xl} {} //COL-XL
+
+                // BROWSERS
+                    @media #{$browser-ie} {} //IE
+
+                .elementor-widget-container {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$screen-xs} {} //COL-XS
+                        @media #{$screen-sm} {} //COL-SM
+                        @media #{$screen-md} {} //COL-MD
+                        @media #{$device-mobile} {} //MOBILE
+
+                    // DESKTOP
+                        @media #{$screen-lg} {} //COL-LG
+                        @media #{$screen-xl} {} //COL-XL
+
+                    // BROWSERS
+                        @media #{$browser-ie} {} //IE
+
+                    #{$text-headings-all} {
+                        // GLOBAL
+                            display: none;
+                            
+                        // MOBILE
+                            @media #{$screen-xs} {} //COL-XS
+                            @media #{$screen-sm} {} //COL-SM
+                            @media #{$screen-md} {} //COL-MD
+                            @media #{$device-mobile} {} //MOBILE
+
+                        // DESKTOP
+                            @media #{$screen-lg} {} //COL-LG
+                            @media #{$screen-xl} {} //COL-XL
+
+                        // BROWSERS
+                            @media #{$browser-ie} {} //IE
+                    } //TEXT-HEADINGS-ALL
+                } //.ELEMENTOR-WIDGET-CONTAINER
+            } //.ELEMENTOR-WIDGET-WP-WIDGET-PHPEVERYWHEREWIDGET
+        } //.ELEMENTOR-WIDGET-WP-WIDGET
+    } //.ELEMENTOR-WIDGET
+} //.ELEMENTOR

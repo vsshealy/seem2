@@ -1,0 +1,196 @@
+/**
+    * sass/theme/objects/buttons.scss
+    * @package seem
+    * @author Scott Shealy
+    * @version 1.0.0
+    * @copyright 02/21
+**/
+
+// ALL BUTTONS
+    .button, .button-solid, .button-alt, .button-ghost, .button-mobile, .button-form, .elementor-button, .btn-slider, input.wpcf7-form-control.wpcf7.submit {
+        // GLOBAL
+            display: inline-block;
+            margin: $button-margin;
+            padding: $button-padding;
+            border-radius: $border-radius;
+            font-family: $button-font;
+            font-size: $button-font-size;
+            text-align: center;
+            text-transform: none;
+
+            &:hover {
+                cursor: pointer;
+            } //:HOVER
+
+        // MOBILE
+            @media #{$screen-xs} {} //COL-XS
+            @media #{$screen-sm} {} //COL-SM
+            @media #{$screen-md} {} //COL-MD
+            @media #{$device-mobile} {} //MOBILE
+
+        // DESKTOP
+            @media #{$screen-lg} {} //COL-LG
+            @media #{$screen-xl} {} //COL-XL
+
+        // BROWSERS
+            @media #{$browser-ie} {} //IE
+
+            i {
+                // GLOBAL
+                    display: inline-block;
+                    margin-left: $margin-none;
+                    margin-right: $margin-xxs;
+
+                // MOBILE
+                    @media #{$screen-xs} {} //COL-XS
+                    @media #{$screen-sm} {} //COL-SM
+                    @media #{$screen-md} {} //COL-MD
+                    @media #{$device-mobile} {} //MOBILE
+
+                // DESKTOP
+                    @media #{$screen-lg} {} //COL-LG
+                    @media #{$screen-xl} {} //COL-XL
+
+                // BROWSERS
+                    @media #{$browser-ie} {} //IE
+            } //I
+    } //ALL BUTTONS
+
+// .BUTTON
+    .button {
+        // GLOBAL
+        // MOBILE
+            @media #{$screen-xs} {} //COL-XS
+            @media #{$screen-sm} {} //COL-SM
+            @media #{$screen-md} {} //COL-MD
+            @media #{$device-mobile} {} //MOBILE
+
+        // DESKTOP
+            @media #{$screen-lg} {} //COL-LG
+            @media #{$screen-xl} {} //COL-XL
+
+        // BROWSERS
+            @media #{$browser-ie} {} //IE
+
+            // BUTTON-SOLID
+                &-solid, .elementor-button, .btn-slider, input.wpcf7.form-control.wpcf7.submit {
+                    // GLOBAL
+                        background-color: $button-color;
+                        color: $button-color-text;
+                        border: 1px solid $button-color-border;
+
+                        &:hover {
+                            background-color: $button-color-hover;
+                            color: $button-color-hover-text;
+                            border: 1px solid $button-color-hover-border;
+                        } //:HOVER
+
+                    // MOBILE
+                        @media #{$screen-xs} {} //COL-XS
+                        @media #{$screen-sm} {} //COL-SM
+                        @media #{$screen-md} {} //COL-MD
+                        @media #{$device-mobile} {} //MOBILE
+
+                    // DESKTOP
+                        @media #{$screen-lg} {} //COL-LG
+                        @media #{$screen-xl} {} //COL-XL
+
+                    // BROWSERS
+                        @media #{$browser-ie} {} //IE
+                } //.BUTTON-SOLID
+
+            // BUTTON-ALT
+                &-alt {
+                    // GLOBAL
+                        background-color: $button-color-alt;
+                        color: $button-color-alt-text;
+                        border: 1px solid $button-color-alt-border;
+
+                        &:hover {
+                            background-color: $button-color-alt-hover;
+                            color: $button-color-alt-hover-text;
+                            border: 1px solid $button-color-alt-hover-border;
+                        } //:HOVER
+
+                    // MOBILE
+                        @media #{$screen-xs} {} //COL-XS
+                        @media #{$screen-sm} {} //COL-SM
+                        @media #{$screen-md} {} //COL-MD
+                        @media #{$device-mobile} {} //MOBILE
+
+                    // DESKTOP
+                        @media #{$screen-lg} {} //COL-LG
+                        @media #{$screen-xl} {} //COL-XL
+
+                    // BROWSERS
+                        @media #{$browser-ie} {} //IE
+                } //.BUTTON-ALT
+
+            // BUTTON-GHOST
+                &-ghost {
+                    // GLOBAL
+                        background-color: transparent;
+                        color: $color-link;
+                        border: 1px solid $color-link;
+
+                        &:hover {
+                            background-color: $color-link;
+                            color: mix($color-light, $color-link, $color-adjustment * 12);
+                            border: 1px solid $color-link;
+                        } //:HOVER
+
+                    // MOBILE
+                        @media #{$screen-xs} {} //COL-XS
+                        @media #{$screen-sm} {} //COL-SM
+                        @media #{$screen-md} {} //COL-MD
+                        @media #{$device-mobile} {} //MOBILE
+
+                    // DESKTOP
+                        @media #{$screen-lg} {} //COL-LG
+                        @media #{$screen-xl} {} //COL-XL
+
+                    // BROWSERS
+                        @media #{$browser-ie} {} //IE
+                } //.BUTTON-GHOST
+
+            // BUTTON-MOBILE
+                &-mobile {
+                    // GLOBAL
+                        @extend .button-solid;
+                        display: block;
+                        text-transform: uppercase;
+
+                    // MOBILE
+                        @media #{$screen-xs} {} //COL-XS
+                        @media #{$screen-sm} {
+                            display: none !important;
+                        } //COL-SM
+                        @media #{$screen-md} {} //COL-MD
+                        @media #{$device-mobile} {} //MOBILE
+
+                    // DESKTOP
+                        @media #{$screen-lg} {} //COL-LG
+                        @media #{$screen-xl} {} //COL-XL
+
+                    // BROWSERS
+                        @media #{$browser-ie} {} //IE
+                } //.BUTTON-MOBILE
+
+            // BUTTON-FORM
+                &-form {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$screen-xs} {} //COL-XS
+                        @media #{$screen-sm} {} //COL-SM
+                        @media #{$screen-md} {} //COL-MD
+                        @media #{$device-mobile} {} //MOBILE
+
+                    // DESKTOP
+                        @media #{$screen-lg} {} //COL-LG
+                        @media #{$screen-xl} {} //COL-XL
+
+                    // BROWSERS
+                        @media #{$browser-ie} {} //IE
+                } //.BUTTON-FORM
+
+    } //.BUTTON

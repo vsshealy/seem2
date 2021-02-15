@@ -1,0 +1,12 @@
+/**
+    * sass/variables/media/browsers.scss
+    * @package seem
+    * @author Scott Shealy
+    * @version 1.0.0
+    * @copyright 02/21
+**/
+
+// BROWSERS
+    $browser-mozilla: "all and (min-moz-device-pixel-ratio: 0) and (min-resolution: 3e1dpcm)";
+    $browser-ie: "screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none)";
+    $browser-webkit: "-webkit-min-device-pixel-ratio: 0";

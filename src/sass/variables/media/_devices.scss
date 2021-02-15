@@ -1,0 +1,17 @@
+/**
+    * sass/variables/media/devices.scss
+    * @package seem
+    * @author Scott Shealy
+    * @version 1.0.0
+    * @copyright 02/21
+**/
+
+// DEVICES
+    $device-phone: "(max-width: 575px)";
+    $device-tablet: "(min-width: 576px) and (max-width: 991px)";
+    $device-mobile: "(max-width: 991px)";
+    $device-desktop: "(min-width: 992px)";
+    $device-desktop-sm: "(min-width: 992px)";
+    $device-desktop-md: "(min-width: 1200px)";
+    $device-desktop-lg: "(min-width: 1920px)";
+    $device-desktop-xl: "(min-width: 3840px)";
