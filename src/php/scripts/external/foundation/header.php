@@ -1,6 +1,6 @@
 <?php 
     /**
-     * php/scripts/head/files/foundation.php
+     * php/scripts/external/foundation/header.php
      * @package seem
      * @author Scott Shealy
      * @version 1.0.0
