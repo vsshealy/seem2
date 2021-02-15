@@ -14,9 +14,23 @@
 <html id="seem" <?php language_attributes(); ?>>
     
     <!-- HEAD -->
-    <head></head>
+    <head>
+        <?php include(get_template_directory()."/src/php/scripts/head/index.php"); ?>
+    </head>
 
     <!-- BODY -->
-    <body class="page"></body>
+    <body class="page">
+
+        <!-- HEADER -->
+        <?php include(get_template_directory()."/header.php"); ?>
+
+        <!-- CONTENT | INDEX.PHP -->
+        <!-- FOOTER -->
+        <?php include(get_template_directory()."/footer.php"); ?>
+
+        <!-- SCRIPTS -->
+        <?php include(get_template_directory()."src/php/scripts/footer/footer-scripts.php"); ?>
+        
+    </body>
 
 </html>

@@ -24,9 +24,13 @@
         <!-- HEADER -->
         <?php include(get_template_directory()."/header.php"); ?>
 
-        <!-- CONTENT | (FRONT)-PAGE.PHP -->
+        <!-- CONTENT | (FRONT-)PAGE.PHP -->
         <!-- FOOTER -->
+        <?php include(get_template_directory()."/footer.php"); ?>
+
         <!-- SCRIPTS -->
+        <?php include(get_template_directory()."/src/php/scripts/footer/footer-scripts.php"); ?>
+        
     </body>
 
 </html>
