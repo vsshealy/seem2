@@ -1,0 +1,118 @@
+/**
+    * sass/parts/forms.scss
+    * @package seem
+    * @author Scott Shealy
+    * @version 1.0.0
+    * @copyright 02/21
+**/
+
+.wpcf7 {
+    // GLOBAL
+    // MOBILE
+        @media #{$screen-xs} {} //COL-XS
+        @media #{$screen-sm} {} //COL-SM
+        @media #{$screen-md} {} //COL-MD
+        @media #{$device-mobile} {} //MOBILE
+
+    // DESKTOP
+        @media #{$screen-lg} {} //COL-LG
+        @media #{$screen-xl} {} //COL-XL
+
+    // BROWSERS
+        @media #{$browser-ie} {} //IE
+
+    &-form-control-wrap {
+        // GLOBAL
+            display: block;
+
+        // MOBILE
+            @media #{$screen-xs} {} //COL-XS
+            @media #{$screen-sm} {} //COL-SM
+            @media #{$screen-md} {} //COL-MD
+            @media #{$device-mobile} {} //MOBILE
+
+        // DESKTOP
+            @media #{$screen-lg} {} //COL-LG
+            @media #{$screen-xl} {} //COL-XL
+
+        // BROWSERS
+            @media #{$browser-ie} {} //IE
+
+        input, textarea {
+            // GLOBAL
+                width: 100.00%;
+                margin: $margin-xs $margin-none;
+                padding: $padding-xxs;
+                background-color: $color-grayscale-light-10;
+                border: 1px solid $color-grayscale-light-2;
+
+            // MOBILE
+                @media #{$screen-xs} {} //COL-XS
+                @media #{$screen-sm} {} //COL-SM
+                @media #{$screen-md} {} //COL-MD
+                @media #{$device-mobile} {} //MOBILE
+
+            // DESKTOP
+                @media #{$screen-lg} {} //COL-LG
+                @media #{$screen-xl} {} //COL-XL
+
+            // BROWSERS
+                @media #{$browser-ie} {} //IE
+        } //INPUT
+    } //.WPCF7-FORM-CONTROL-WRAP
+
+    #form-submit.row {
+        // GLOBAL
+            justify-content: flex-end;
+
+        // MOBILE
+            @media #{$screen-xs} {} //COL-XS
+            @media #{$screen-sm} {} //COL-SM
+            @media #{$screen-md} {} //COL-MD
+            @media #{$device-mobile} {} //MOBILE
+
+        // DESKTOP
+            @media #{$screen-lg} {} //COL-LG
+            @media #{$screen-xl} {} //COL-XL
+
+        // BROWSERS
+            @media #{$browser-ie} {} //IE
+
+        #form-submit-button {
+            // GLOBAL                
+            // MOBILE
+                @media #{$screen-xs} {} //COL-XS
+                @media #{$screen-sm} {} //COL-SM
+                @media #{$screen-md} {} //COL-MD
+                @media #{$device-mobile} {} //MOBILE
+
+            // DESKTOP
+                @media #{$screen-lg} {} //COL-LG
+                @media #{$screen-xl} {} //COL-XL
+
+            // BROWSERS
+                @media #{$browser-ie} {} //IE
+
+            input[type=submit] {
+                // GLOBAL
+                    @extend .button-solid;
+                    width: 100.00%;
+                    margin-top: $margin-none;
+                    margin-bottom: $margin-none;
+
+                // MOBILE
+                    @media #{$screen-xs} {} //COL-XS
+                    @media #{$screen-sm} {} //COL-SM
+                    @media #{$screen-md} {} //COL-MD
+                    @media #{$device-mobile} {} //MOBILE
+
+                // DESKTOP
+                    @media #{$screen-lg} {} //COL-LG
+                    @media #{$screen-xl} {} //COL-XL
+
+                // BROWSERS
+                    @media #{$browser-ie} {} //IE
+            } //INPUT.SUBMIT
+        } //#FORM-SUBMIT-BUTTON
+    } //.FORM-SUBMIT.ROW
+} //.WPCF7
