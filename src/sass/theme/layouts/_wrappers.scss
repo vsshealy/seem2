@@ -67,7 +67,7 @@
         &-content {
             // GLOBAL
                 width: $site-width-min;
-                max-width: $site-width-max !important;
+                max-width: $site-width-content !important;
                 margin: 0.00rem auto;
 
             // MOBILE
@@ -91,7 +91,7 @@
             // GLOBAL
                 width: 100.00%;
                 margin: 0.00rem auto;
-                padding: $padding-sm;
+                padding: $padding-xs;
 
             // MOBILE
                 @media #{$screen-xs} {} //COL-XS
@@ -112,7 +112,7 @@
             // GLOBAL
                 width: 100.00%;
                 margin: 0.00rem auto;
-                padding: $padding-sm;
+                padding: $padding-xs;
 
             // MOBILE
                 @media #{$screen-xs} {} //COL-XS

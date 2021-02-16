@@ -19,7 +19,7 @@
     </head>
 
     <!-- BODY -->
-    <body class="page">
+    <body <?php body_class(); ?> class="page">
 
         <!-- HEADER -->
         <?php include(get_template_directory()."/header.php"); ?>
