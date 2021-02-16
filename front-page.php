@@ -25,6 +25,8 @@
         <?php include(get_template_directory()."/header.php"); ?>
 
         <!-- CONTENT | (FRONT-)PAGE.PHP -->
+        <?php include(get_template_directory()."/src/php/theme/templates/front-page.php"); ?>
+        
         <!-- FOOTER -->
         <?php include(get_template_directory()."/footer.php"); ?>
 
