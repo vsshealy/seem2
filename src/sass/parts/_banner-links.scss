@@ -1,0 +1,76 @@
+/**
+    * sass/parts/banner-links.scss
+    * @package seem
+    * @author Scott Shealy
+    * @version 1.0.0
+    * @copyright 02/21
+**/
+
+.banner-link {
+    // GLOBAL
+        height: 300px;
+        @extend .flexbox-center-all;
+        padding: $padding-sm;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50.00% 50.00%;
+        border: 1px solid $color-grayscale-light-12;
+        font-family: $font-serif;
+        font-size: 2.00em;
+        text-transform: uppercase;
+        color: $color-grayscale-light-12;
+
+        &:hover {
+            color: $color-grayscale-light-8;
+            opacity: 0.95;
+        } //:HOVER
+
+    // MOBILE
+        @media #{$screen-xs} {} //COL-XS
+        @media #{$screen-sm} {} //COL-SM
+        @media #{$screen-md} {} //COL-MD
+        @media #{$device-mobile} {} //MOBILE
+
+    // DESKTOP
+        @media #{$screen-lg} {} //COL-LG
+        @media #{$screen-xl} {} //COL-XL
+
+    // BROWSERS
+        @media #{$browser-ie} {} //IE
+
+    &.newsroom {
+        // GLOBAL
+            background-image: url("/wp-content/themes/seem/src/img/site/news_tile_dark.jpg");
+
+        // MOBILE
+        @media #{$screen-xs} {} //COL-XS
+        @media #{$screen-sm} {} //COL-SM
+        @media #{$screen-md} {} //COL-MD
+        @media #{$device-mobile} {} //MOBILE
+
+    // DESKTOP
+        @media #{$screen-lg} {} //COL-LG
+        @media #{$screen-xl} {} //COL-XL
+
+    // BROWSERS
+        @media #{$browser-ie} {} //IE
+    } //.NEWSROOM
+
+    &.stakeholders {
+        // GLOBAL
+            background-image: url('/wp-content/themes/seem/src/img/site/stake_tile_dark.jpg');
+
+        // MOBILE
+        @media #{$screen-xs} {} //COL-XS
+        @media #{$screen-sm} {} //COL-SM
+        @media #{$screen-md} {} //COL-MD
+        @media #{$device-mobile} {} //MOBILE
+
+    // DESKTOP
+        @media #{$screen-lg} {} //COL-LG
+        @media #{$screen-xl} {} //COL-XL
+
+    // BROWSERS
+        @media #{$browser-ie} {} //IE
+    } //.STAKEHOLDERS
+} //.BANNER-LINK
