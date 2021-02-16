@@ -149,6 +149,27 @@
                 @media #{$browser-ie} {} //IE
         } //.WRAPPER-SECTION
 
+    // &-HERO
+        &-hero {
+            // GLOBAL
+                width: 100.00%;
+                margin: 0.00rem auto;
+                padding: $padding-lg $padding-none;
+                
+            // MOBILE
+                @media #{$screen-xs} {} //COL-XS
+                @media #{$screen-sm} {} //COL-SM
+                @media #{$screen-md} {} //COL-MD
+                @media #{$device-mobile} {} //MOBILE
+
+            // DESKTOP
+                @media #{$screen-lg} {} //COL-LG
+                @media #{$screen-xl} {} //COL-XL
+
+            // BROWSERS
+                @media #{$browser-ie} {} //IE
+        } //.WRAPPER-HERO
+
     // &-BANNER
         &-banner {
             // GLOBAL

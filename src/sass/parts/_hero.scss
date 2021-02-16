@@ -1,0 +1,117 @@
+/**
+    * sass/parts/hero.scss
+    * @package seem
+    * @author Scott Shealy
+    * @version 1.0.0
+    * @copyright 02/21
+**/
+
+.hero {
+    // GLOBAL
+    // MOBILE
+        @media #{$screen-xs} {} //COL-XS
+        @media #{$screen-sm} {} //COL-SM
+        @media #{$screen-md} {} //COL-MD
+        @media #{$device-mobile} {} //MOBILE
+
+    // DESKTOP
+        @media #{$screen-lg} {} //COL-LG
+        @media #{$screen-xl} {} //COL-XL
+
+    // BROWSERS
+        @media #{$browser-ie} {} //IE
+
+    &-home {
+        // GLOBAL
+            height: 440px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 50.00% 50.00%;
+
+        // MOBILE
+            @media #{$screen-xs} {} //COL-XS
+            @media #{$screen-sm} {} //COL-SM
+            @media #{$screen-md} {} //COL-MD
+            @media #{$device-mobile} {} //MOBILE
+
+        // DESKTOP
+            @media #{$screen-lg} {} //COL-LG
+            @media #{$screen-xl} {} //COL-XL
+
+        // BROWSERS
+            @media #{$browser-ie} {} //IE
+
+        .elementor-container, .elementor-column, .elementor-widget-wrap, .elementor-element, .elementor-widget-container {
+            // GLOBAL
+                height: 100.00%;
+                @extend .flexbox-center-all;
+
+            // MOBILE
+                @media #{$screen-xs} {} //COL-XS
+                @media #{$screen-sm} {} //COL-SM
+                @media #{$screen-md} {} //COL-MD
+                @media #{$device-mobile} {} //MOBILE
+
+            // DESKTOP
+                @media #{$screen-lg} {} //COL-LG
+                @media #{$screen-xl} {} //COL-XL
+
+            // BROWSERS
+                @media #{$browser-ie} {} //IE
+        } //ELEMENTOR-CONTAINERS
+
+        .elementor-widget-container {
+            // GLOBAL
+                @extend .wrapper-content;
+                @extend .wrapper-hero;
+
+            // MOBILE
+                @media #{$screen-xs} {} //COL-XS
+                @media #{$screen-sm} {} //COL-SM
+                @media #{$screen-md} {} //COL-MD
+                @media #{$device-mobile} {} //MOBILE
+
+            // DESKTOP
+                @media #{$screen-lg} {} //COL-LG
+                @media #{$screen-xl} {} //COL-XL
+
+            // BROWSERS
+                @media #{$browser-ie} {} //IE
+        } //.ELEMENTOR-WIDGET-CONTAINER
+
+        #{$text-headings-all} {
+            // GLOBAL
+                font-size: 3.00em;
+                color: $color-seem-white;
+
+            // MOBILE
+                @media #{$screen-xs} {} //COL-XS
+                @media #{$screen-sm} {} //COL-SM
+                @media #{$screen-md} {} //COL-MD
+                @media #{$device-mobile} {} //MOBILE
+
+            // DESKTOP
+                @media #{$screen-lg} {} //COL-LG
+                @media #{$screen-xl} {} //COL-XL
+
+            // BROWSERS
+                @media #{$browser-ie} {} //IE
+        } //TEXT-HEADINGS
+    } //.HERO-HOME
+
+    &-subpage {
+        // GLOBAL
+        // MOBILE
+            @media #{$screen-xs} {} //COL-XS
+            @media #{$screen-sm} {} //COL-SM
+            @media #{$screen-md} {} //COL-MD
+            @media #{$device-mobile} {} //MOBILE
+
+        // DESKTOP
+            @media #{$screen-lg} {} //COL-LG
+            @media #{$screen-xl} {} //COL-XL
+
+        // BROWSERS
+            @media #{$browser-ie} {} //IE
+    } //.HERO-SUBPAGE
+} //.HERO
