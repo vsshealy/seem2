@@ -25,11 +25,13 @@
         <?php include(get_template_directory()."/header.php"); ?>
 
         <!-- CONTENT | 404.PHP -->
+        <?php include(get_template_directory()."/src/php/theme/templates/404.php"); ?>
+
         <!-- FOOTER -->
         <?php include(get_template_directory()."/footer.php"); ?>
 
         <!-- SCRIPTS -->
-        <?php include(get_template_directory()."src/php/scripts/footer/footer-scripts.php"); ?>
+        <?php include(get_template_directory()."/src/php/scripts/footer/footer-scripts.php"); ?>
         
     </body>
 
